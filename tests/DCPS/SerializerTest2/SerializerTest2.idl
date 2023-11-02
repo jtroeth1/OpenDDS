@@ -1,0 +1,14 @@
+/*
+ *
+ *
+ * Distributed under the OpenDDS License.
+ * See: http://www.opendds.org/license.html
+ */
+
+module SerializerTest2 {
+
+  @topic
+  struct Message {
+    sequence<octet> bytes;
+  };
+};

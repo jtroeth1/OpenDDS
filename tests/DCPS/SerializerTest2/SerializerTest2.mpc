@@ -1,0 +1,11 @@
+project(*SerializerTest2) : dcpsexe, dcps_test, dcps_transports_for_test {
+  exename = SerializerTest2
+
+  TypeSupport_Files {
+    SerializerTest2.idl
+  }
+
+  Source_Files {
+    SerializerTest2.cpp
+  }
+}
